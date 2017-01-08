@@ -5,8 +5,7 @@
 ## Categories
 
 - [Algorithm](#algorithm)
-- CTF
-- Python
+- [Python](#python)
 
 
 ## Algorithm
@@ -14,11 +13,9 @@
 - [Big-O notation](https://github.com/tkhwang/TIL/blob/master/algorithm/big_o_notation/README.md)
 
 
-## CTF
-
-
-
 ## Python
+
+- [python basic]()
 
 
 
