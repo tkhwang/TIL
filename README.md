@@ -4,12 +4,14 @@
 
 ## Categories
 
-- Algorithm
+- [Algorithm](#algorithm)
 - CTF
 - Python
 
 
 ## Algorithm
+
+- [Big-O notation](https://github.com/tkhwang/TIL/blob/master/algorithm/big_o_notation/README.md)
 
 
 ## CTF
