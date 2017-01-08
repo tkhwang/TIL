@@ -15,7 +15,7 @@
 
 ## Python
 
-- [python basic]()
+- [python basic](https://github.com/tkhwang/TIL/blob/master/python/README.md)
 
 
 
