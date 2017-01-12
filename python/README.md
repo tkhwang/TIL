@@ -2,6 +2,17 @@
 
 - Variable 은 `letter` 혹은 `_`로 시작해야 함. 즉 `2a` 와 같이 숫자가 먼저 오면 에러가 발생함.
 
+## Chained operation
+
+```python
+In [1]: 1 < 2 < 3
+Out[1]: True
+
+
+In [2]: 1 < 2 > 3
+Out[2]: False
+```
+
 ## Dictionary
 
 - Dictionary comprehension
