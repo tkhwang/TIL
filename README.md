@@ -4,6 +4,7 @@
 ## Categories
 
 - [Algorithm](#algorithm)
+- [Editor](#editor)
 - [Python](#python)
 
 
@@ -14,6 +15,12 @@
 ### Sort
 
 - [Bubble sort](https://github.com/tkhwang/TIL/blob/master/algorithm/sort.md)
+
+## Editor
+
+### ATOM
+
+- [live-code-runner](https://github.com/tkhwang/TIL/blob/master/editor/atom.md)
 
 
 ## Python
