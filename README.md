@@ -26,9 +26,8 @@
 
 ## Editor
 
-### ATOM
-
-- [live-code-runner](https://github.com/tkhwang/TIL/blob/master/editor/atom.md)
+- [ATOM](https://github.com/tkhwang/TIL/blob/master/editor/atom.md)
+- [Sublimtetext](https://github.com/tkhwang/TIL/blob/master/editor/subimtetext.md)
 
 
 ## Git
