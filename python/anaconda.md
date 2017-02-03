@@ -1,4 +1,4 @@
-# Annaconda
+# Anaconda
 
 ## Install package
 
