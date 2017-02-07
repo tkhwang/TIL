@@ -41,6 +41,7 @@
 - [anaconda](https://github.com/tkhwang/TIL/blob/master/python/anaconda.md)
 - [any](https://github.com/tkhwang/TIL/blob/master/python/any.md)
 - [dictionary to json](https://github.com/tkhwang/TIL/blob/master/python/dictionary_to_json.md)
+- [numpy](https://github.com/tkhwang/TIL/blob/master/python/numpy.md)
 - [random](https://github.com/tkhwang/TIL/blob/master/python/random.md)
 - [sqlite](https://github.com/tkhwang/TIL/blob/master/python/sqlite.md)
 - [swap](https://github.com/tkhwang/TIL/blob/master/python/swap.md)
