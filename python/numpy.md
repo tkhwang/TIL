@@ -16,30 +16,39 @@ np.random.rand(3,4)
 np.genfromtxt("XXXX.csv", delimiter=",", skip_header=1)
 ```
 
-## dot : matrix multiplication
+## [numpy.array](https://docs.scipy.org/doc/numpy/reference/generated/numpy.array.html)
 
 ```python
-import numpy as np
+numpy.array(object, dtype=None, copy=True, order='K', subok=False, ndmin=0)
 
-x = np.array([[1,2],[3,4]])
-y = np.array([[5,6],[7,8]])
+# Parameters:
+- ndmin : int, optional
+Specifies the minimum number of dimensions that the resulting array should have. Ones will be pre-pended to the shape as needed to meet this requirement.
 
-v = np.array([9,10])
-w = np.array([11, 12])
+# Returns:
+- out : ndarray
+An array object satisfying the specified requirements.
+```
 
-# 백터의 내적, v[0]*w[0] + v[1]*w[1] = 219
-print v.dot(w)
-print np.dot(v, w)
 
-# 매트릭스 벡터 곱, 랭크 1 배열 [29 67]을 만든다  [x[0,0]*v[0]+x[0,1]*v[0]=29, x[1,0]*v[0]+x[1,1]*v[1]=67]
-print x.dot(v)
-print np.dot(x, v)
 
-# 행렬 곱은 랭크 2 배열을 만듬. x[0,0]*y[0,0]+x[0,1]*y[1,0]=19, x[0,0]*y[0,1]+x[0,1]*y[1,1]=22, x[1,0]*y[0,1]+x[1,1]*y[1,1]=43, x[1,0]*y[0,1]+x[1,1]*y[1,1]=50
-# [[19 22]
-#  [43 50]]
-print x.dot(y)
-print np.dot(x, y)
+
+## [numpy.random.normal](https://docs.scipy.org/doc/numpy/reference/generated/numpy.random.normal.html)
+
+```
+numpy.random.normal(loc=0.0, scale=1.0, size=None)
+
+# Parameters:	
+- loc : float or array_like of floats 
+        Mean (“centre”) of the distribution.
+- scale : float or array_like of floats 
+        Standard deviation (spread or “width”) of the distribution.
+- size : int or tuple of ints, optional 
+        Output shape. If the given shape is, e.g., (m, n, k), then m * n * k samples are drawn. If size is None (default), a single value is returned if loc and scale are both scalars. Otherwise, np.broadcast(loc, scale).size samples are drawn.
+
+#Returns:	
+- out : ndarray or scalar 
+        Drawn samples from the parameterized normal distribution.
 ```
 
 
