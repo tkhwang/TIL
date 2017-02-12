@@ -1,5 +1,26 @@
 # adb
 
+## `adb backup`
+
+[Android Backup Extractor download | SourceForge.net](https://sourceforge.net/projects/adbextractor/)
+
+```bash
+$ java -jar abe.jar
+Android backup extractor v20160710
+Cipher.getMaxAllowedKeyLength("AES") = 2147483647
+Strong AES encryption allowed, MaxKeyLenght >= 256
+Usage:
+        info:   abe [-debug] [-useenv=yourenv] info <backup.ab> [password]
+        unpack: abe [-debug] [-useenv=yourenv] unpack <backup.ab> <backup.tar> [password]
+        pack:   abe [-debug] [-useenv=yourenv] pack <backup.tar> <backup.ab> [password]
+        pack 4.4.3+:    abe [-debug] [-useenv=yourenv] pack-kk <backup.tar> <backup.ab> [password]
+        If -useenv is used, yourenv is tried when password is not given
+        If -debug is used, information and passwords may be shown
+        If the filename is `-`, then data is read from standard input or written to standard output
+```
+
+
+
 ## no permission 
 
 [android - set up device for development (?????? no permissions) - Stack Overflow](http://stackoverflow.com/questions/9210152/set-up-device-for-development-no-permissions)
