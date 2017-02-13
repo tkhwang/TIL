@@ -17,3 +17,14 @@ origin  https://github.com/user/repo.git (push)
 $ git remote set-url origin https://github.com/user/repo2.git
 # Change the 'origin' remote's URL
 ```
+
+
+## self-signed certifcate
+
+[version control - How can I make git accept a self signed certificate? - Stack Overflow](http://stackoverflow.com/questions/11621768/how-can-i-make-git-accept-a-self-signed-certificate)
+
+```bash
+$ git -c http.sslVerify=false clone https://domain.com/path/to/git
+git config http.sslVerify false
+```
+
