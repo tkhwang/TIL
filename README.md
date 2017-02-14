@@ -42,6 +42,7 @@
 - [anaconda](https://github.com/tkhwang/TIL/blob/master/python/anaconda.md)
 - [any](https://github.com/tkhwang/TIL/blob/master/python/any.md)
 - [dictionary to json](https://github.com/tkhwang/TIL/blob/master/python/dictionary_to_json.md)
+- [directory](https://github.com/tkhwang/TIL/blob/master/python/directory.md)
 - [numpy](https://github.com/tkhwang/TIL/blob/master/python/numpy.md)
 - [random](https://github.com/tkhwang/TIL/blob/master/python/random.md)
 - [sqlite](https://github.com/tkhwang/TIL/blob/master/python/sqlite.md)
@@ -49,6 +50,7 @@
 - [virtualenv](https://github.com/tkhwang/TIL/blob/master/python/virtualenv.md)
 
 ## System
+
 
 ### MAC
 
