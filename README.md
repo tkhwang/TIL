@@ -33,7 +33,7 @@
 
 ## Gdb
 
-- [gdb](https://github.com/tkhwang/TIL/blob/master/git/gdb.md)
+- [gdb](https://github.com/tkhwang/TIL/blob/master/gdb/README.md)
 
 ## Git
 
