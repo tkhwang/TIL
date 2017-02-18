@@ -1,5 +1,4 @@
 # TIL: Today I Learned
-
   
 ## Categories
 
@@ -10,7 +9,6 @@
 - [Git](#git)
 - [Python](#python)
 - [System](#system)
-
 
 ## Algorithm
 
