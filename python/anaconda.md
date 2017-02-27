@@ -45,3 +45,9 @@ $ conda env create -f environment.yaml
 $ source activate env_name
 ```
 
+### Run jupyter
+
+```bash
+$ jupyter notebook
+```
+
