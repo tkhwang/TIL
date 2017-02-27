@@ -38,3 +38,10 @@ $ conda env export > environment.yaml
 ```bash
 $ conda env create -f environment.yaml
 ```
+
+### Activate
+
+```bash
+$ source activate env_name
+```
+
