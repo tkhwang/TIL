@@ -7,6 +7,7 @@
 - [Editor](#editor)
 - [Gdb](#gdb)
 - [Git](#git)
+- [Hardware](#hardware)
 - [Python](#python)
 - [System](#system)
 
@@ -37,6 +38,9 @@
 
 - [git command](https://github.com/tkhwang/TIL/blob/master/git/README.md)
 
+## Hardware
+
+- [Raspberry Pi : Sense Hat](https://github.com/tkhwang/TIL/blob/master/hardware/rpi-sense-hat.md)
 
 ## Python
 
