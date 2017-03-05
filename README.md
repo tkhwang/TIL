@@ -40,6 +40,7 @@
 
 ## Hardware
 
+- [Raspberry Pi](https://github.com/tkhwang/TIL/blob/master/hardware/raspberrypi.md)
 - [Raspberry Pi : Sense Hat](https://github.com/tkhwang/TIL/blob/master/hardware/rpi-sense-hat.md)
 
 ## Python
