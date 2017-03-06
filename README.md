@@ -52,6 +52,7 @@
 - [directory](https://github.com/tkhwang/TIL/blob/master/python/directory.md)
 - [numpy](https://github.com/tkhwang/TIL/blob/master/python/numpy.md)
 - [jupyter](https://github.com/tkhwang/TIL/blob/master/python/jupyter.md)
+- [pycharm](https://github.com/tkhwang/TIL/blob/master/python/pycharm.md)
 - [random](https://github.com/tkhwang/TIL/blob/master/python/random.md)
 - [sqlite](https://github.com/tkhwang/TIL/blob/master/python/sqlite.md)
 - [swap](https://github.com/tkhwang/TIL/blob/master/python/swap.md)
