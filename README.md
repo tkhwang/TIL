@@ -10,6 +10,7 @@
 - [Hardware](#hardware)
 - [Python](#python)
 - [System](#system)
+- [Tool](#tool)
 
 ## Algorithm
 
@@ -64,4 +65,8 @@
 ### MAC
 
 - [java](https://github.com/tkhwang/TIL/blob/master/system/mac/java.md)
+
+### TOOL
+
+- [httpie](https://github.com/tkhwang/TIL/blob/master/tool/httpie.md)
 
