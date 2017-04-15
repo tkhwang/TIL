@@ -55,6 +55,7 @@
 - [jupyter](https://github.com/tkhwang/TIL/blob/master/python/jupyter.md)
 - [pycharm](https://github.com/tkhwang/TIL/blob/master/python/pycharm.md)
 - [random](https://github.com/tkhwang/TIL/blob/master/python/random.md)
+- [requestsl](https://github.com/tkhwang/TIL/blob/master/python/requests.md)
 - [sqlite](https://github.com/tkhwang/TIL/blob/master/python/sqlite.md)
 - [swap](https://github.com/tkhwang/TIL/blob/master/python/swap.md)
 - [virtualenv](https://github.com/tkhwang/TIL/blob/master/python/virtualenv.md)
