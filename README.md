@@ -1,5 +1,5 @@
 # TIL: Today I Learned
-  
+
 ## Categories
 
 - [Algorithm](#algorithm)
@@ -55,6 +55,7 @@
 - [any](https://github.com/tkhwang/TIL/blob/master/python/any.md)
 - [dictionary to json](https://github.com/tkhwang/TIL/blob/master/python/dictionary_to_json.md)
 - [directory](https://github.com/tkhwang/TIL/blob/master/python/directory.md)
+- [hash](https://github.com/tkhwang/TIL/blob/master/python/hash.md)
 - [numpy](https://github.com/tkhwang/TIL/blob/master/python/numpy.md)
 - [jupyter](https://github.com/tkhwang/TIL/blob/master/python/jupyter.md)
 - [pycharm](https://github.com/tkhwang/TIL/blob/master/python/pycharm.md)
@@ -76,4 +77,3 @@
 
 - [httpie](https://github.com/tkhwang/TIL/blob/master/tool/httpie.md)
 - [kite](https://github.com/tkhwang/TIL/blob/master/tool/kite.md)
-
