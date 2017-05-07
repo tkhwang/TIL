@@ -1,6 +1,27 @@
 # gdb
 
 
+## ARM binary cross-debugging 환경 구축
+
+### Cross-compiler
+
+```bash
+$ sudo apt-get install libc6-armel-cross libc6-dev-armel-cross
+$ sudo apt-get install binutils-arm-linux-gnueabi
+$ sudo apt-get install libncurses5-dev
+
+$ sudo apt-get install gcc-arm-linux-gnueabi
+$ sudo apt-get install g++-arm-linux-gnueabi
+```
+
+### GDB multi-arch 설치
+
+```bash
+$ sudo apt-get install gdb-multiarch
+```
+
+
+
 ## Python 2.7 호환 GDB 설치 
 
 [Trouble compiling GDB with python 2.7 support for gdb-peda - Ask Ubuntu](http://askubuntu.com/questions/548435/trouble-compiling-gdb-with-python-2-7-support-for-gdb-peda)
