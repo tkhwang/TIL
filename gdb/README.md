@@ -1,5 +1,29 @@
 # gdb
 
+## Basic : How to use
+
+```
+# Break
+(gdb) b main
+(gdb) b *main+32
+
+# info
+(gdb) info break
+(gdb) info register
+
+(gdb) display/ i $pc
+
+(gdb) x[/범위][출력형식][범위의 단위]
+(gdb) x/16bx $esp
+(gdb) x/32cw main
+
+(gdb) si
+(gdb) ni
+
+(gdb) run
+(gdb) finish
+```
+
 
 ## ARM binary cross-debugging 환경 구축
 
