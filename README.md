@@ -9,6 +9,7 @@
 - [Git](#git)
 - [Hardware](#hardware)
 - [Python](#python)
+- [Ruby](#ruby)
 - [System](#system)
 - [Tool](#tool)
 
@@ -67,6 +68,10 @@
 - [sqlite](https://github.com/tkhwang/TIL/blob/master/python/sqlite.md)
 - [swap](https://github.com/tkhwang/TIL/blob/master/python/swap.md)
 - [virtualenv](https://github.com/tkhwang/TIL/blob/master/python/virtualenv.md)
+
+## Ruby
+
+- [Ruby](https://github.com/tkhwang/TIL/blob/master/ruby/README.md)
 
 ## System
 
