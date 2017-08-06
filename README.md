@@ -32,7 +32,7 @@
 
 ## File system
 
-- [ATOM](https://github.com/tkhwang/TIL/blob/master/filesystem/README.md)
+- [Mount File system](https://github.com/tkhwang/TIL/blob/master/filesystem/README.md)
 
 ## Gdb
 
