@@ -1,5 +1,20 @@
 # gdb
 
+## shellcode
+
+### gef
+
+```
+shellcode search linux/x86
+```
+
+### peda
+
+```
+shellcode generate x86/linux exec 
+```
+
+
 ## Basic : How to use
 
 ```
