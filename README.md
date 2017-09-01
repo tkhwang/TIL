@@ -33,7 +33,7 @@
 
 ## CTF
 
-- [crack](https://github.com/tkhwang/TIL/blob/master/ctf/README.md)
+- [ctf](https://github.com/tkhwang/TIL/blob/master/ctf/README.md)
 
 ## Editor
 
