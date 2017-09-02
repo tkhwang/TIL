@@ -97,6 +97,10 @@
 
 - [Bubble sort](https://github.com/tkhwang/TIL/blob/master/algorithm/sort.md)
 
+### Standard C Library
+
+- [libc](https://github.com/tkhwang/TIL/blob/master/system/libc.md)
+
 
 ### MAC
 
