@@ -66,8 +66,8 @@
 ## Network
 
 - [pcap](https://github.com/tkhwang/TIL/blob/master/network/pcap.md)
+- [netstat](https://github.com/tkhwang/TIL/blob/master/network/netstat.md)
 - [ui](https://github.com/tkhwang/TIL/blob/master/network/ui.md)
-
 
 ## Python
 
