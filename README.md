@@ -17,7 +17,8 @@
 - [Ruby](#ruby)
 - [System](#system)
 - [Tool](#tool)
-- [UI](#tui)
+- [UI](#ui)
+- [Utility](#utility)
 
 ## Algorithm
 
@@ -120,5 +121,9 @@
 ### UI
 
 - [ui](https://github.com/tkhwang/TIL/blob/master/ui/README.md)
+
+### Utility
+
+- (utility)(https://github.com/tkhwang/TIL/blob/master/utility/README.md)
 
 
