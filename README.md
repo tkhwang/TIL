@@ -19,6 +19,7 @@
 - [Tool](#tool)
 - [UI](#ui)
 - [Utility](#utility)
+- [Web](#web)
 
 ## Algorithm
 
@@ -124,6 +125,9 @@
 
 ### Utility
 
-- (utility)(https://github.com/tkhwang/TIL/blob/master/utility/README.md)
+- [utility](https://github.com/tkhwang/TIL/blob/master/utility/README.md)
 
+### Web
+
+- [web](https://github.com/tkhwang/TIL/blob/master/web/README.md)
 
