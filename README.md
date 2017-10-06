@@ -83,6 +83,7 @@
 - [any](https://github.com/tkhwang/TIL/blob/master/python/any.md)
 - [dictionary to json](https://github.com/tkhwang/TIL/blob/master/python/dictionary_to_json.md)
 - [directory](https://github.com/tkhwang/TIL/blob/master/python/directory.md)
+- [django](https://github.com/tkhwang/TIL/blob/master/python/django.md))
 - [hash](https://github.com/tkhwang/TIL/blob/master/python/hash.md)
 - [itertools](https://github.com/tkhwang/TIL/blob/master/python/itertools.md)
 - [numpy](https://github.com/tkhwang/TIL/blob/master/python/numpy.md)

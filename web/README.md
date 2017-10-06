@@ -1,5 +1,18 @@
 # Web
 
+## Webfont
+
+### 이롭게
+
+[이롭게 바탕체 웹사이트에 적용하기 | (주)이롭게](http://iropke.com/archive/iropke-batang-css.html)
+
+```css
+@import url('//cdn.jsdelivr.net/font-iropke-batang/1.2/font-iropke-batang.css');
+
+body { font-family: 'Iropke Batang', serif; }
+```
+
+
 ## CSS : code/pre code wrap
 
 [Make "Pre" Text Wrap | CSS-Tricks](https://css-tricks.com/snippets/css/make-pre-text-wrap/)
