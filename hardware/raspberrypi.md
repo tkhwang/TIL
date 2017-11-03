@@ -1,5 +1,14 @@
 # Raspberry Pi
 
+## local problem 
+
+[boot - Unable to reconfigure locale in raspberry pi - Raspberry Pi Stack Exchange](https://raspberrypi.stackexchange.com/questions/43550/unable-to-reconfigure-locale-in-raspberry-pi)
+
+- Edit /etc/locale.gen and uncomment the line with en_US.UTF-8 e.g. `sudo nano /etc/locale.gen` uncomment line by deleting leading #
+- Run `sudo locale-gen en_US.UTF-8`
+- Run `sudo update-locale en_US.UTF-8`
+
+
 ## [flashrom](https://www.flashrom.org/Flashrom)
 
 ```bash
