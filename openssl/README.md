@@ -20,13 +20,20 @@ In fact, the term X.509 certificate usually refers to the IETF’s PKIX Certific
 
 ## Encodings (also used as extensions)
 
-.DER = The DER extension is used for binary DER encoded certificates. These files may also bear the CER or the CRT extension.   Proper English usage would be “I have a DER encoded certificate” not “I have a DER certificate”.
+#### `.DER` 
+
+The DER extension is used for binary DER encoded certificates. These files may also bear the CER or the CRT extension.   Proper English usage would be “I have a DER encoded certificate” not “I have a DER certificate”.
 .PEM = The PEM extension is used for different types of X.509v3 files which contain ASCII (Base64) armored data prefixed with a “—– BEGIN …” line.
 Common Extensions
 
-.CRT = The CRT extension is used for certificates. The certificates may be encoded as binary DER or as ASCII PEM. The CER and CRT extensions are nearly synonymous.  Most common among *nix systems
+#### `.CRT`
+
+The CRT extension is used for certificates. The certificates may be encoded as binary DER or as ASCII PEM. The CER and CRT extensions are nearly synonymous.  Most common among *nix systems
 CER = alternate form of .crt (Microsoft Convention) You can use MS to convert .crt to .cer (.both DER encoded .cer, or base64[PEM] encoded .cer)  The .cer file extension is also recognized by IE as a command to run a MS cryptoAPI command (specifically rundll32.exe cryptext.dll,CryptExtOpenCER) which displays a dialogue for importing and/or viewing certificate contents.
-.KEY = The KEY extension is used both for public and private PKCS#8 keys. The keys may be encoded as binary DER or as ASCII PEM.
+
+#### `.KEY`
+
+The KEY extension is used both for public and private PKCS#8 keys. The keys may be encoded as binary DER or as ASCII PEM.
 The only time CRT and CER can safely be interchanged is when the encoding type can be identical.  (ie  PEM encoded CRT = PEM encoded CER)
 
 
@@ -77,6 +84,17 @@ $ openssl x509 -in ca.der -inform DER -text
 - 보통 .`pfx`, `.p12` 등의 확장자로 저장됨. 
 - 바이너리 형식으로 저장되며 pkcs#12 포멧의 파일은 인증서, 개인키 내용을 파일하나에 모두 담고 있습니다. 
 - 백업 또는 이동용으로 주로 사용됩니다. 
+
+[SSL Converter - Convert SSL Certificates to different formats](https://www.sslshopper.com/ssl-converter.html)
+
+## pfx -> cer
+
+```bash
+$ openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
+```
+
+
+
 
 
 
