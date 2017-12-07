@@ -93,10 +93,10 @@ $ openssl x509 -in ca.der -inform DER -text
 $ openssl pkcs12 -in certificate.pfx -out certificate.cer -nodes
 ```
 
+## `.cer`, `.der` to `.pem`
 
+[How do I convert a .cer certificate to .pem? - Server Fault](https://serverfault.com/questions/254627/how-do-i-convert-a-cer-certificate-to-pem)
 
-
-
-
-
- 
+```bash
+$ openssl x509 -inform der -in certificate.cer -out certificate.pem
+```
