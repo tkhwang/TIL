@@ -30,3 +30,17 @@ ModuleNotFoundError: No module named 'jpype'
 ```bash
 $ pip install JPype1-py3
 ```
+
+근데 서버에서 설치해보니 필요로 하는 것이 많네요.
+
+```bash
+$ sudo apt install default-jdk
+$ sudo apt install gcc
+$ sudo apt install g++
+$ sudo apt install python3-dev
+
+
+$ sudo apt-get install libfontenc1 libxfont1 xfonts-encodings xfonts-utils xfonts-base xfonts-75dpi
+$ sudo apt install language-pack-ko
+$ 
+```
