@@ -79,6 +79,11 @@ $ openssl x509 -in ca.der -inform DER -text
 - DER은 주로 Java 플랫폼에서 쓰입니다. 
 
 
+## PKCS#8
+
+- 개인키를 비밀번호로 암호화 한 
+- Password protected private key file
+
 ## PKCS#12(Public Key Cryptography Standards #12)
 
 - 보통 .`pfx`, `.p12` 등의 확장자로 저장됨. 
