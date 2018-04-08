@@ -138,5 +138,56 @@ java.lang.SecurityException: Permission Denial: starting Intent { flg=0x10000000
 ```
 
 
+## Stack-navigation
 
+Stack-naviagation 이용 시 child component 에 navigate function pass 방법.
+
+[react-navigation - navigating from child component - Stack Overflow](https://stackoverflow.com/questions/46269595/react-navigation-navigating-from-child-component)
+
+```javascript
+// subcomponent ... receives navigate from parent
+const Child = (props) => {
+    return (
+        <TouchableOpacity 
+            onPress={() => props.navigate(props.destination) }>
+            <Text>{props.text}>>></Text>
+        </TouchableOpacity>
+    );
+}
+// receives navigation from StackNavigator
+const PageOne = (props) => {
+    return (
+        <View>
+            <Text>Page One</Text>
+            <Child 
+                navigate={props.navigation.navigate} 
+                destination="pagetwo" text="To page 2"/>
+        </View>
+    )
+}
+// receives custom props AND navigate inside StackNavigator 
+const PageTwo = (props) => (
+    <View>
+        <Text>{props.text}</Text>
+        <Child 
+            navigate={props.navigation.navigate} 
+            destination="pagethree" text="To page 3"/>
+    </View>
+);
+// receives ONLY custom props (no nav sent) inside StackNAvigator
+const PageThree = (props) => <View><Text>{props.text}</Text></View>
+
+export default App = StackNavigator({
+    pageone: { 
+        screen: PageOne, navigationOptions: { title: "One" } },
+    pagetwo: { 
+        screen: (navigation) => <PageTwo {...navigation} text="Page Deux" />, 
+        navigationOptions: { title: "Two" } 
+    },
+    pagethree: { 
+        screen: () => <PageThree text="Page III" />, 
+        navigationOptions: { title: "Three" }
+    },
+});
+```
 
