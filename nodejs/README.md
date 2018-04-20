@@ -12,3 +12,12 @@ $ export PATH="/usr/local/Cellar/node/0.12.7/bin:$PATH"
 $ . .bash_profile 
 $ curl -L https://www.npmjs.com/install.sh | sh
 ```
+
+## `npm start` using `pm2`
+
+[node.js - Can pm2 run an 'npm start' script - Stack Overflow](https://stackoverflow.com/questions/31579509/can-pm2-run-an-npm-start-script)
+
+```bash
+$ pm2 start npm -- start
+```
+
