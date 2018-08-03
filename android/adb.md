@@ -1,5 +1,13 @@
 # adb
 
+## adb installation by mac brew
+
+[android - Installing ADB on MAC OS X - Stack Overflow](https://stackoverflow.com/questions/31374085/installing-adb-on-mac-os-x)
+
+```bash
+brew cask install android-platform-tools
+```
+
 ## `adb backup`
 
 [Android Backup Extractor download | SourceForge.net](https://sourceforge.net/projects/adbextractor/)
