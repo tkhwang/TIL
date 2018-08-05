@@ -2,35 +2,34 @@
 
 ## Categories
 
-- [TIL: Today I Learned](#til-today-i-learned)
-    - [Categories](#categories)
-    - [Algorithm](#algorithm)
-    - [Android](#android)
-    - [Crack](#crack)
-    - [CTF](#ctf)
-    - [Editor](#editor)
-    - [File system](#file-system)
-    - [Go](#go)
-    - [Gdb](#gdb)
-    - [Git](#git)
-    - [Hardware](#hardware)
-    - [Linux](#linux)
-    - [Javascript](#javascript)
-    - [Nodejs](#nodejs)
-    - [Network](#network)
-    - [Python](#python)
-    - [React Native](#react-native)
-    - [Ruby](#ruby)
-    - [System](#system)
-    - [Solidity](#solidity)
-        - [Sort](#sort)
-        - [Standard C Library](#standard-c-library)
-        - [MAC](#mac)
-        - [TOOL](#tool)
-        - [UI](#ui)
-        - [Utility](#utility)
-        - [Web](#web)
-        - [XCode](#xcode)
+- [Algorithm](#algorithm)
+- [Android](#android)
+- [Crack](#crack)
+- [CTF](#ctf)
+- [Editor](#editor)
+- [File system](#file-system)
+- [Go](#go)
+- [Gdb](#gdb)
+- [Git](#git)
+- [Hardware](#hardware)
+- [Linux](#linux)
+- [Latex](#latex)
+- [Javascript](#javascript)
+- [Nodejs](#nodejs)
+- [Network](#network)
+- [Python](#python)
+- [React Native](#react-native)
+- [Ruby](#ruby)
+- [System](#system)
+- [Solidity](#solidity)
+- [Sort](#sort)
+- [Standard C Library](#standard-c-library)
+- [MAC](#mac)
+- [TOOL](#tool)
+- [UI](#ui)
+- [Utility](#utility)
+- [Web](#web)
+- [XCode](#xcode)
 
 ## Algorithm
 
@@ -75,6 +74,10 @@
 
 - [Raspberry Pi](https://github.com/tkhwang/TIL/blob/master/hardware/raspberrypi.md)
 - [Raspberry Pi : Sense Hat](https://github.com/tkhwang/TIL/blob/master/hardware/rpi-sense-hat.md)
+
+## Latex
+
+- [latex](https://github.com/tkhwang/TIL/blob/master/latex/README.md)
 
 ## Linux
 
