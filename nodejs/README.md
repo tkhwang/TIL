@@ -9,7 +9,7 @@ brew 이용하여 npm 없이 node 설치한 후 `PATH` 추가한 이후 `npm` �
 ```shell
 $ brew install node --without-npm
 $ export PATH="/usr/local/Cellar/node/0.12.7/bin:$PATH"
-$ . .bash_profile 
+$ . .bash_profile
 $ curl -L https://www.npmjs.com/install.sh | sh
 ```
 
@@ -21,3 +21,12 @@ $ curl -L https://www.npmjs.com/install.sh | sh
 $ pm2 start npm -- start
 ```
 
+## `forever`
+
+```bash
+$ forever start script
+$ forever stop script
+$ forever ls
+$ forever stop 0
+$ forever stopall
+```
