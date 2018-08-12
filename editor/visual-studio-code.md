@@ -11,6 +11,46 @@
 
 ## Disable italic font
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 [Disable italic syntax highlighting in VS Code - Stack Overflow](https://stackoverflow.com/questions/44219768/disable-italic-syntax-highlighting-in-vs-code)
 
 ```
