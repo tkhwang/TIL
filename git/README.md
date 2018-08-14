@@ -18,6 +18,25 @@ $ git remote set-url origin https://github.com/user/repo2.git
 # Change the 'origin' remote's URL
 ```
 
+## Fork 한 github source 원래 소스와 sync 하기
+
+[[Tip] Fork한 Github 소스 원래 소스와 싱크 하기 – Not for Me](http://www.notforme.kr/archives/1631)
+
+- pull : update 한 이후 merge 까지 자동 수행
+- fetch : just get update
+
+```bash
+// Upstream remote repository 설정하기
+$ git remote add upstream https://github.com/XXX
+
+// Fetch from upstream
+$ git fetch upstream
+
+// Merge to master
+$ git checkout master
+$ git merge upstream/master
+```
+
 
 ## self-signed certifcate
 
@@ -27,4 +46,3 @@ $ git remote set-url origin https://github.com/user/repo2.git
 $ git -c http.sslVerify=false clone https://domain.com/path/to/git
 git config http.sslVerify false
 ```
-
