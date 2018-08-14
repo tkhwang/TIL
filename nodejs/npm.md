@@ -1,7 +1,5 @@
 # npm
 
-## `--save` 와 `--save-dev` 차이점
-
 ## `n` utility
 
 `node` 버전 관리를 위한 utility
@@ -12,6 +10,8 @@ $ n ls
 $ sudo n lts
 $ sudo n latest
 ```
+
+## npm `--save` 와 `--save-dev` 차이점
 
 ### `npm install module`
 
