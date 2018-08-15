@@ -1,5 +1,12 @@
 # npm
 
+## `npm audit`
+
+```bash
+$ npm audit
+$ npm audit fix
+```
+
 ## `n` utility
 
 `node` 버전 관리를 위한 utility
