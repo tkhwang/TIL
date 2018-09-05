@@ -1,5 +1,17 @@
 # Visual Studio Code
 
+## Configure status bar color
+
+[VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference)
+
+```json
+{
+  "workbench.colorCustomizations": {
+    "activityBar.background": "#00AA00"
+  }
+}
+```
+
 ## Vertical guide rules
 
 [Vertical rulers in Visual Studio Code? - Stack Overflow](https://stackoverflow.com/questions/29968499/vertical-rulers-in-visual-studio-code/29972073#29972073)
@@ -8,48 +20,7 @@
 "editor.rulers": [80,120]
 ```
 
-
 ## Disable italic font
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 [Disable italic syntax highlighting in VS Code - Stack Overflow](https://stackoverflow.com/questions/44219768/disable-italic-syntax-highlighting-in-vs-code)
 
