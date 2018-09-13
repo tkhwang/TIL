@@ -20,7 +20,51 @@
 1
 > obj['b']
 2
-```  
+```
+
+## Object 의 property value 값에 따라서 sort 하기
+
+[javascript - How to sort objects by value - Stack Overflow](https://stackoverflow.com/questions/43773092/how-to-sort-objects-by-value)
+
+```javascript
+let obj = { a: 24, b: 12, c: 21, d: 15 };
+
+// Get an array of the keys:
+let keys = Object.keys(obj);
+
+// Then sort by using the keys to lookup the values in the original object:
+keys.sort(function(a, b) {
+  return obj[a] - obj[b];
+});
+
+console.log(keys);
+
+["b", "d", "c", "a"];
+```
+
+[Sorting JavaScript Object by property value - Stack Overflow](https://stackoverflow.com/questions/1069666/sorting-javascript-object-by-property-value)
+
+```javascript
+var maxSpeed = {
+  car: 300,
+  bike: 60,
+  motorbike: 200,
+  airplane: 1000,
+  helicopter: 400,
+  rocket: 8 * 60 * 60
+};
+var sortable = [];
+for (var vehicle in maxSpeed) {
+  sortable.push([vehicle, maxSpeed[vehicle]]);
+}
+
+sortable.sort(function(a, b) {
+  return a[1] - b[1];
+});
+
+//[["bike", 60], ["motorbike", 200], ["car", 300],
+//["helicopter", 400], ["airplane", 1000], ["rocket", 28800]]
+```
 
 ## Promise
 
