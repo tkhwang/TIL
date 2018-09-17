@@ -66,6 +66,17 @@ sortable.sort(function(a, b) {
 //["helicopter", 400], ["airplane", 1000], ["rocket", 28800]]
 ```
 
+## 원본 그대로 vs 연산 결과 사용
+
+- 원본 그대로
+  - `unshift()`
+  - `shift()`
+- 연산 결과 사용
+  ```javascript
+  var new_str = str.toUpperCase();
+  return new_str;
+  ```
+
 ## Promise
 
 ```javascript
