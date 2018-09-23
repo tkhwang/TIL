@@ -22,7 +22,26 @@
 2
 ```
 
-## Object 의 property value 값에 따라서 sort 하기
+## Sort Object
+
+### Object 의 key property 에 따라서 sort 하기
+
+- key 로 sort 한 이후에 이에 따라서 새로 object 를 만들어서 return 해야 한다.
+
+[Session 10 - Recursion | Code States](https://learn.codestates.com/courses/386527/lectures/5894776)
+
+```javascript
+function sortObject(obj) {
+  return Object.keys(obj)
+    .sort()
+    .reduce(function(result, key) {
+      result[key] = obj[key];
+      return result;
+    }, {});
+}
+```
+
+### Object 의 property value 값에 따라서 sort 하기
 
 [javascript - How to sort objects by value - Stack Overflow](https://stackoverflow.com/questions/43773092/how-to-sort-objects-by-value)
 
@@ -76,6 +95,39 @@ sortable.sort(function(a, b) {
   var new_str = str.toUpperCase();
   return new_str;
   ```
+
+## Closure
+
+```javascript
+function makeIncreaseByFunction(increaseByAmount) {
+  return function(numberToIncrease) {
+    return numberToIncrease + increaseByAmount;
+  };
+}
+
+var increaseBy3 = makeIncreaseByFunction(3);
+var increaseBy5 = makeIncreaseByFunction(5);
+
+increaseBy3(10) + increaseBy5(10) = ?
+```
+
+#### Stage1
+
+```javascript
+var increaseBy3 = makeIncreaseByFunction(3)
+  = return function(numberToIncrease) {
+    return numberToIncrease + 3;
+  };
+```
+
+`increaseBy3` 는 `numberToIncrease` local variable 가지고 있는 closure 가 된다.
+
+이를 `increaseBy3(10)` 으로 실행을 시키면
+
+```javascript
+increaseBy3(10)
+increaseBy3(10) = makeIncreaseByFunction(3)(10) = 13;
+```
 
 ## Promise
 
@@ -170,8 +222,31 @@ async function findAndSaveUser (Users {
 }
 ```
 
-# AJAX (Asynchronous Javascript and XML)
+## `Math.max()`
+
+`array[]` 에 대한 `Math.max()` 사용의 경우
 
 ```javascript
-var xhr = new XMLHttpReques();
+let arr = [1, 2, 3, 4, 5];
+```
+
+- array 가 직접 올 수 없음.
+
+```javascript
+console.log(Math.max(arr));
+NaN;
+```
+
+- 전개 연산자 이용할 것.
+
+```javascript
+console.log(Math.max(...arr));
+5;
+```
+
+- `Math.max.apply(null, arr)` 이용할 것.
+
+```javascript
+console.log(Math.max.apply(null, arr));
+5;
 ```
