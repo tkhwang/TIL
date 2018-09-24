@@ -250,3 +250,15 @@ console.log(Math.max(...arr));
 console.log(Math.max.apply(null, arr));
 5;
 ```
+
+## Number
+
+#### Number 의 length  구하기.
+
+[jquery - Length of Number in JavaScript - Stack Overflow](https://stackoverflow.com/questions/10952615/length-of-number-in-javascript)
+
+Array 와 달리 `.length` property 가 없다. `.toString()` 한 이후에 이용 할 수 있음.
+
+```javascript
+n.toString().length
+```
