@@ -111,6 +111,25 @@ var increaseBy5 = makeIncreaseByFunction(5);
 increaseBy3(10) + increaseBy5(10) = ?
 ```
 
+#### Closure 활용 예
+
+```javascript
+var getCompletedStr = (function() {
+  var buffAr = ["I am ", "", " I live in ", "", "I 'am ", "", " years old"];
+
+  return function(name, city, age) {
+    buffAr[1] = name;
+    buffAr[3] = city;
+    buffAr[5] = age;
+
+    return buffAr.join("");
+  };
+})();
+
+var str = getCompletedStr("zzoon", "seoul", 16);
+console.log(str);
+```
+
 #### Stage1
 
 ```javascript
@@ -261,4 +280,26 @@ Array 와 달리 `.length` property 가 없다. `.toString()` 한 이후에 이�
 
 ```javascript
 n.toString().length
+```
+
+## Covert
+
+#### Decimal ==> Binary
+
+```javascript
+// number.toString(2)
+
+// 11..toString(2) // '1011'
+(11).toString(2); // '1011'
+"11".toString(2); // '11'
+```
+
+## Padding algorithm
+
+```javascript
+var n = 123;
+
+String("00000" + n).slice(-5); // returns 00123
+String("00000" + n).slice(-5); // returns 00123
+String("     " + n).slice(-5); // returns "  123" (with two spaces)
 ```
