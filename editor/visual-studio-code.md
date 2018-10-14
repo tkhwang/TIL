@@ -1,5 +1,13 @@
 # Visual Studio Code
 
+## Select all occurrences of selected word in VSCode
+
+[visual studio code - Select all occurrences of selected word in VSCode - Stack Overflow](https://stackoverflow.com/questions/46539714/select-all-occurrences-of-selected-word-in-vscode?rq=1)
+
+```
+cmd + shift + L on MAC
+```
+
 ## Configure status bar color
 
 [VS Code Theme Color Reference](https://code.visualstudio.com/docs/getstarted/theme-color-reference)
