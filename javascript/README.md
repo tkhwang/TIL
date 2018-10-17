@@ -1,5 +1,13 @@
 # Javascript
 
+## Random
+
+[Basic JavaScript: Generate Random Whole Numbers within a Range | Learn freeCodeCamp](https://learn.freecodecamp.org/javascript-algorithms-and-data-structures/basic-javascript/generate-random-whole-numbers-within-a-range/)
+
+```javascript
+Math.floor(Math.random() * (max - min + 1)) + min;
+```
+
 ## Object
 
 - 객체는 키 (식별자 또는 문자열)와 값(속성)으로 이루어짐.
