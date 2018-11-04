@@ -93,6 +93,39 @@ sortable.sort(function(a, b) {
 //["helicopter", 400], ["airplane", 1000], ["rocket", 28800]]
 ```
 
+## Prototype
+
+### New() 효과
+
+[Advanced Javascript | TylerMcGinnis.com](https://learn.tylermcginnis.com/courses/369735/lectures/6377473)
+
+```javascript
+function Animal(name, energy) {
+  let animal = Object.create(Animal.prototype);
+  animal.name = name;
+  animal.energy = energy;
+
+  return animal;
+}
+```
+
+New 생성자 사용 시의 효과
+
+- `let this = Object.create(parent)` 로 object create 하여
+- `return this`
+
+```javascript
+function Animal(name, energy) {
+  //let this = Object.create(Animal.prototype);
+  this.name = name;
+  this.energy = energy;
+
+  //return animal;
+}
+
+const leo = new Animal("Leo", 7);
+```
+
 ## 원본 그대로 vs 연산 결과 사용
 
 - 원본 그대로
