@@ -1,5 +1,37 @@
 # git command
 
+## Basic command
+
+### Branch
+
+생성
+
+```bash
+git checkout -b BRANCH_NAME
+
+//OR
+
+git branch BRANCH_NAME
+git checkout BRANCH_NAME
+```
+
+로컬 브랜치 삭제
+
+```bash
+git branch -d BRANCH_NAME
+```
+
+원격 브랜치 삭제
+
+```bash
+git push origin --delete BRANCH
+
+// OR
+
+git branch -d BRANCH_NAME
+git push origin BRANCH_NAME
+```
+
 ## `remote set-url`
 
 - git remote repository configuration 확인
@@ -36,7 +68,6 @@ $ git fetch upstream
 $ git checkout master
 $ git merge upstream/master
 ```
-
 
 ## self-signed certifcate
 

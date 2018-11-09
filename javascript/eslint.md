@@ -1,5 +1,8 @@
 # eslint
 
+## 특정 파일 제외
+
+- `.eslintignore` : 파일에 eslint 적용 대상 파일 추가.
 
 ## Disable `no-console` error
 
